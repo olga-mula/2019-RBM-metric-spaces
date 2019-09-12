@@ -31,3 +31,7 @@ For instance, to reproduce the results on inviscous Burger's equation, run
   python3 test-all.py -p Burgers --id Burgers --offline
   
 The whole computation takes about an hour. For the other problems, the computational time is longer.
+
+Copyright
+=========
+Copyright (c) 2019, Olga Mula (Paris Dauphine University).
