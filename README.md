@@ -3,6 +3,11 @@ Description
 
 This folder contains the sources of the paper "Nonlinear model reduction on metric spaces. Application to one-dimensional conservative PDEs in Wasserstein spaces", by V. Ehrlacher, D. Lombardi, O. Mula et F.-X. Vialard.
 
+Required software
+=================
+Python >= 3.7
+Required modules: scipy, numpy, matplotlib, multiprocessing, cvxopt, itertools, os, sys, time, jsonpickle, pickle, argparse
+
 Running the code
 =================
 The main file is test-all.py. To reproduce the results of the paper, run the command
