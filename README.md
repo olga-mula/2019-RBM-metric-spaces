@@ -6,6 +6,7 @@ This folder contains the sources of the paper "Nonlinear model reduction on metr
 Required software
 =================
 Python >= 3.7
+
 Required modules: scipy, numpy, matplotlib, multiprocessing, cvxopt, itertools, os, sys, time, jsonpickle, pickle, argparse
 
 Running the code
