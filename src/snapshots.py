@@ -78,7 +78,7 @@ class Burgers(ProbaMeasure):
 
 	@staticmethod
 	def nSamplesPerParameter():
-		return [5, 5]
+		return [50, 50]
 
 	@staticmethod
 	def typeSamplingPerParameter():
