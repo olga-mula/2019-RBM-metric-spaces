@@ -23,14 +23,14 @@ The main file is test-all.py. To reproduce the results of the paper, run the com
  
  where:
   -  \<p\> is the type of PDE problem (keys are: Burgers, ViscousBurgers, KdV, CamassaHolm)
-  - \<id\> is the filename of the folder where results are stored
+  - \<p\>\\<id\> is the filename of the folder where results are stored
   - offline is an optional parameter to compute the offline phase
 
-For instance, to reproduce the results on inviscous Burger's equation, run
+For instance, to reproduce the results on inviscous Burger's equation that are on the paper, run
 
-  python3 test-all.py -p Burgers --id Burgers --offline
-  
-The whole computation takes about an hour. For the other problems, the computational time is longer.
+  python3 test-all.py -p Burgers --id paper --offline
+
+Results will be stored in the folder Burgers/paper. The whole computation takes about an hour. For the other problems, the computational time is longer.
 
 Copyright
 =========
