@@ -1,0 +1,8 @@
+# Output folders
+Burgers
+ViscousBurgers
+CamassaHolm
+KdV
+
+# Caches
+__pycache__/
